@@ -1,23 +1,15 @@
 {
   "name": "jsonrender",
   "version": "1.0.0",
+  "description": "mock server app",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anand6840/JSONRENDER.git"
+    "start": "node server.js" 
   },
   "keywords": [],
-  "author": "",
+  "author": "Anand",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/anand6840/JSONRENDER/issues"
-  },
-  "homepage": "https://github.com/anand6840/JSONRENDER#readme",
-  "description": "",
   "dependencies": {
-    "json-server": "^0.17.1"
+    "json-server": "^0.17.0"
   }
 }
